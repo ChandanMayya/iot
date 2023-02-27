@@ -1,0 +1,25 @@
+<html>
+	<body>
+		<title>
+			Raspberry pi Remote Control
+		</title>
+		<h1>Raspberry PI Remote cntrl</h1>
+		<h2>Light Satus : {{lstatus}}, Last Modified : {{time}}</h2>
+		<form action="http://127.0.0.1:4000/redledon">
+			 <input type="submit" value="On Red LED"></form>
+		<form action="http://127.0.0.1:4000/redledoff">
+			 <input type="submit" value="Off Red LED"></form>
+			 
+		<h2>Relay Satus : {{rstatus}}, Last Modified : {{time}}</h2>
+		<form action="http://127.0.0.1:4000/relayon">
+			 <input type="submit" value="On RElay"></form>
+		<form action="http://127.0.0.1:4000/relayof">
+			 <input type="submit" value="Off RELAY"></form>
+			 
+		<h2>Buzzer Satus : {{bstatus}}, Last Modified : {{time}}</h2>
+		<form action="http://127.0.0.1:4000/buzzeron">
+			 <input type="submit" value="On Buzzer"></form>
+		<form action="http://127.0.0.1:4000/buzzerof">
+			 <input type="submit" value="Off Buzzer"></form>
+	</body>
+	</html>
